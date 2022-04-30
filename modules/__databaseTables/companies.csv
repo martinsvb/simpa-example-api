@@ -1,0 +1,13 @@
+Field,Type,Collation,Null,Key,Default,Extra,Privileges,Comment
+id,varchar(20),utf8_general_ci,NO,PRI,,,"select,insert,update,references",
+name,varchar(255),utf8_general_ci,YES,,,,"select,insert,update,references",
+ico,varchar(50),utf8_general_ci,NO,,,,"select,insert,update,references",
+email,varchar(255),utf8_general_ci,NO,UNI,,,"select,insert,update,references",
+active,tinyint(1),,NO,,,,"select,insert,update,references",
+street,varchar(255),utf8_general_ci,NO,,,,"select,insert,update,references",
+street_nr,varchar(50),utf8_general_ci,NO,,,,"select,insert,update,references",
+state,varchar(10),utf8_general_ci,NO,,,,"select,insert,update,references",
+city,varchar(255),utf8_general_ci,NO,,,,"select,insert,update,references",
+zip,varchar(50),utf8_general_ci,NO,,,,"select,insert,update,references",
+phone,varchar(255),utf8_general_ci,NO,,,,"select,insert,update,references",
+ts_created,"int unsigned",,NO,,,,"select,insert,update,references",

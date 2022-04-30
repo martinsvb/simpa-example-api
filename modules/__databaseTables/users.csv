@@ -1,0 +1,12 @@
+Field,Type,Collation,Null,Key,Default,Extra,Privileges,Comment
+id,varchar(40),utf8_general_ci,NO,PRI,,,"select,insert,update,references",
+comp_id,"int unsigned",,YES,,,,"select,insert,update,references",
+firstName,varchar(255),utf8_general_ci,YES,,,,"select,insert,update,references",
+lastName,varchar(255),utf8_general_ci,YES,,,,"select,insert,update,references",
+avatar,varchar(255),utf8_general_ci,YES,,,,"select,insert,update,references",
+email,varchar(255),utf8_general_ci,NO,UNI,,,"select,insert,update,references",
+password,varchar(128),utf8_general_ci,NO,,,,"select,insert,update,references",
+role,varchar(50),utf8_general_ci,NO,,,,"select,insert,update,references",
+modules,text,utf8_general_ci,YES,,,,"select,insert,update,references",
+active,tinyint(1),,NO,,,,"select,insert,update,references",
+ts_created,"int unsigned",,NO,,,,"select,insert,update,references",
